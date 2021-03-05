@@ -1,0 +1,71 @@
+.container{
+  position: absolute;
+  text-align: center;
+  color:black;
+}.top-left {
+  position: absolute;
+  top: 8px;
+  left: 1px;
+  font-family: 'Montez', cursive;
+  color: blue;
+  font-size: xx-large;
+  font-weight: bold;
+}
+.explore{
+  position: absolute;
+  top: 45px;
+  left: 1px;
+  width: 5%;
+  font-family: 'Ubuntu Mono', monospace;
+}
+.imagine{
+  position: absolute;
+  top: 45px;
+  left: 70px;
+  width: 5%;
+  font-family: 'Ubuntu Mono', monospace;
+}
+.create{
+  position: absolute;
+  top: 45px;
+  left: 140px;
+  width: 5%;
+  font-family: 'Ubuntu Mono', monospace;
+}
+  .signUp {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    width: 170%;
+  }
+  .signIn{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    width: 185%;
+  }
+.button-signUp{
+  background-color:blue;
+}
+.button-signIn{
+  background-color: rgba(4, 0, 255, 0.781);
+}
+.allpost{
+  position:absolute;
+  top: 300px;
+  left: 10px;
+  width: 80%;
+}
+.createpost{
+  position:absolute;
+  top: 300px;
+  left: 10px;
+  width: 97%;
+}
+.allPost{
+  background-color: yellow;
+}
+.createPost{
+  background-color: yellow;
+}
+
