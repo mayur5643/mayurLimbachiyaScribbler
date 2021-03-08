@@ -37,18 +37,26 @@
     top: 8px;
     left: 16px;
     width: 170%;
+    cursor: pointer;
+    color: white;
   }
   .signIn{
     position: absolute;
     top: 8px;
     left: 16px;
     width: 185%;
+    cursor: pointer;
   }
 .button-signUp{
   background-color:blue;
+  cursor: pointer;
+  color: white;
+  padding: 5px;
 }
 .button-signIn{
   background-color: rgba(4, 0, 255, 0.781);
+  color: white;
+  padding: 5px;
 }
 .allpost{
   position:absolute;
