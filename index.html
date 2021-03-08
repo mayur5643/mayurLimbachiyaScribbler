@@ -6,7 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./style/index.css">
     <link rel="stylesheet" href="./style/common.css">   
@@ -23,7 +23,7 @@
         <span class="imagine">Imagine,</span>
         <span class="create">Create</span>
         <div class="signUp">
-            <button class="button-signUp">Sign Up</button>
+            <a href="#" id="button" class="button">Sign Up</a>
         </div>
         <div class="signIn">
             <button class="button-signIn">Sign In</button>
@@ -33,9 +33,20 @@
         </div><div class="createpost">
             <button class="createPost">Create Post</button>
         </div>
-
     </div>
-    
+    <!--Modal Section-->
+    <div class="bg-modal">
+        <div class="modal-content">
+            <div class="close">+</div>
+            <form action="">
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="UserName">
+                <input type="password" placeholder="password">
+                <input type="text" placeholder="confirmPassword">
+                <a href="" class="button">Sign Up</a>
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>

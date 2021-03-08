@@ -6,3 +6,34 @@ header{
     background-color:white;
     color:red;
     }
+.bg-modal{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0, 0,0.7);
+    position:absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.bg-content{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border-radius: 4px;
+    position: relative;
+}
+input{
+    display: block;
+    margin: 10px auto;
+}
+.close{
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 42px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
